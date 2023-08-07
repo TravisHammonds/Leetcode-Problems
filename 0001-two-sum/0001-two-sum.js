@@ -4,16 +4,15 @@
  * @return {number[]}
  */
 let twoSum = function(nums, target) {
-    let returnArray = [];
-    for (let i=0; returnArray.length < 2; i++){
-        let num1 = nums[i];
-        let j = 1+i; 
-        for(j; j<nums.length; j++){
-            let num2 = nums[j];
-            if(num1 + num2 == target){
-                returnArray.push(i,j);
-            }
-        }
-    }
-    return returnArray; 
+  const numToIndexMap = {};
+  for (let i = 0; i < nums.length; i++) {
+    const num1 = nums[i];
+    const complement = target - num1;
+    if (numToIndexMap.hasOwnProperty(complement)) {
+      return [numToIndexMap[complement], i];
+    } else {}
+    numToIndexMap[num1] = i;
+  }
+  return [];
 };
+
