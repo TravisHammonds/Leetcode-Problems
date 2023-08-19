@@ -5,11 +5,8 @@
  */
 var addTwoPromises = async function(promise1, promise2) {
     try {
-        let array = await Promise.all([promise1, promise2])
-        return array.reduce((acc, elem) => {
-            acc += elem 
-            return acc
-        },0)
+        let [x,y] = await Promise.all([promise1, promise2])
+        return x + y
     } catch {
        console.log("failed")
     }
