@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
+| [1803-average-waiting-time](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/1803-average-waiting-time) |
 ## Two Pointers
 |  |
 | ------- |
@@ -15,4 +16,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
+## Simulation
+|  |
+| ------- |
+| [1803-average-waiting-time](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/1803-average-waiting-time) |
 <!---LeetCode Topics End-->
