@@ -5,22 +5,21 @@
 var averageWaitingTime = function(customers) {
     const waitTimes = [];
     let currentTime = customers[0][0]
-    for(let customer of customers){
+    for(let [arrivalTime, prepTime] of customers){
 
         //check if someone is in queue (if current time is >= customer[i][0]) if yes start order, else change currtime
-        currentTime = currentTime >= customer[0] ? currentTime : customer[0];
+        currentTime = currentTime >= arrivalTime ? currentTime : arrivalTime;
 
         //increase the current time by prep time
-        currentTime += customer[1]
+        currentTime += prepTime
 
         //subtract current time by current cusomter arrival time
-        let currentCustomerWait = currentTime - customer[0]
+        let currentCustomerWait = currentTime - arrivalTime
+
         //insert the difference into the wait times array
         waitTimes.push(currentCustomerWait);
     }
 
     //average the wait times and return the answer
-    let averageWaitTime = waitTimes.reduce((time, acc) => time + acc)
-
-    return averageWaitTime / (customers.length); 
+    return  waitTimes.reduce((time, acc) => time + acc) / (customers.length); 
 };
