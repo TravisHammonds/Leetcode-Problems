@@ -28,4 +28,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
