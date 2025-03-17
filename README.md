@@ -37,4 +37,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1827-invalid-tweets](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/1908-recyclable-and-low-fat-products) |
+## Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/0021-merge-two-sorted-lists) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/TravisHammonds/Leetcode-Problems/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
